@@ -1,5 +1,13 @@
 # Native Gradle Sample using a Node Project folder
 
+
+```
+modified for SBGCK tests
+
+Added napi "Hello World" functions.
+```
+
+
 An Android Studio project that uses the [`Node.js on Mobile`]( https://github.com/janeasystems/nodejs-mobile) shared library, as an example of using a Node Project folder inside the Application.
 
 The sample app runs the node.js engine in a background thread to start an HTTP server on port 3000. The app's Main Activity UI has a button to query the server and show the server's response (i.e. the `process.versions` value, alongside the result of using the [`left-pad` npm module](https://www.npmjs.com/package/left-pad)). Alternatively, it's also possible to access the server from a browser running on a different device connected to the same local network.
