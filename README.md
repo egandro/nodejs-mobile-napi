@@ -5,6 +5,8 @@
 modified for SBGCK tests
 
 Added napi "Hello World" functions.
+
+Works with Android API 30, nodejs-mobile can't build (out of the box) with the 22+ NDK (shame on google)
 ```
 
 
